@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="aopalliance-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../mqttjar/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/flatbuffers-java-1.10.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/guice-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/guice-assistedinject-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/guice-integration-1.14.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/guice-multibindings-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/jackson-annotations-2.10.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/jackson-core-2.10.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/jackson-databind-2.10.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/javaapi-1.14.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/joynr-mqtt-client-1.14.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/messaging-common-1.14.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/mqtt-client-0.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/paho-mqtt-client-1.14.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/smrf-0.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/smrf-api-0.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mqttjar/status-metrics-1.14.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
