@@ -79,9 +79,9 @@ import static WriteREad.MyMqtt.DEFAULT_TOPIC;
     public  static JSONArray  getResponse (String startDate,String endDate) {
         JSONArray jsonArray2=null;
         try {
-            String api_key = "C2HLR38KUMXL6HOY3VE0F2BNGZSEF1XF";
-            String site = "1745524";
-            String url="https://monitoringapi.solaredge.com/site/1745524/energy?timeUnit=DAY&endDate="+endDate+"&startDate="+startDate+"&api_key=C2HLR38KUMXL6HOY3VE0F2BNGZSEF1XF";
+            String api_key = "";
+            String site = "";
+            String url="https://monitoringapi.solaredge.com/site/"+site+"/energy?timeUnit=DAY&endDate="+endDate+"&startDate="+startDate+"&api_key="+api_key;
             URL obj;
             obj = new URL(url);
             HttpURLConnection con = (HttpURLConnection) obj.openConnection();
