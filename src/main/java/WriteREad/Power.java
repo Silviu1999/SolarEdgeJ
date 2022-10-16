@@ -63,7 +63,7 @@ public class Power extends Thread{
         String api_key = "C2HLR38KUMXL6HOY3VE0F2BNGZSEF1XF";
         String site = "1745524";
         String url;
-        url="https://monitoringapi.solaredge.com/site/1745524/powerDetails?startTime="+startDate.substring(0,10)+"%20"+startDate.substring(11,19)+"&endTime="+endDate.substring(0,10)+"%20"+endDate.substring(11,19)+"&api_key=C2HLR38KUMXL6HOY3VE0F2BNGZSEF1XF";
+        url="https://monitoringapi.solaredge.com/site/"+site+"/powerDetails?startTime="+startDate.substring(0,10)+"%20"+startDate.substring(11,19)+"&endTime="+endDate.substring(0,10)+"%20"+endDate.substring(11,19)+"&api_key="+api_key;
         System.out.println("URL:"+url);
         URL obj;
         obj = new URL(url);
