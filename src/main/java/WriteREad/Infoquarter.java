@@ -93,15 +93,15 @@ public class Infoquarter extends Thread{
 
     public static JSONArray getResponse(String startDate, String endDate,String time) throws IOException {
         JSONArray jsonArray2 = null;
-        String api_key = "C2HLR38KUMXL6HOY3VE0F2BNGZSEF1XF";
-        String site = "1745524";
+        String api_key = "";
+        String site = "";
         String url;
         if(time.equals("day")){
 
-            url = "https://monitoringapi.solaredge.com/site/1745524/energy?timeUnit=DAY&endDate=" + endDate + "&startDate=" + startDate + "&api_key=C2HLR38KUMXL6HOY3VE0F2BNGZSEF1XF";}
+            url = "https://monitoringapi.solaredge.com/site/"+site+"/energy?timeUnit=DAY&endDate=" + endDate + "&startDate=" + startDate + "&api_key="+api_key;}
         else {
 
-            url="https://monitoringapi.solaredge.com/site/1745524/power?startTime="+startDate.substring(0,10)+"%20"+startDate.substring(11,19)+"&endTime="+endDate.substring(0,10)+"%20"+endDate.substring(11,19)+"&api_key=C2HLR38KUMXL6HOY3VE0F2BNGZSEF1XF";
+            url="https://monitoringapi.solaredge.com/site/"+site+"/power?startTime="+startDate.substring(0,10)+"%20"+startDate.substring(11,19)+"&endTime="+endDate.substring(0,10)+"%20"+endDate.substring(11,19)+"&api_key="+api_key";
         }
         URL obj;
         obj = new URL(url);
