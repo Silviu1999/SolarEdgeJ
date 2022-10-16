@@ -9,7 +9,7 @@ public class MyMqtt implements MqttCallback {
     private MqttClient myClient;
     private MqttConnectOptions connectOptions;
 
-    private static final String BROKER_URL = "tcp://mqtt.beia-telemetrie.ro:1883";
+    private static final String BROKER_URL = "";
 
     private static final String MY_MQTT_CLIENT_ID = UUID.randomUUID().toString();
 
